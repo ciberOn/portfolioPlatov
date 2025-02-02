@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Старшая Понедельник/Жанна"
+		},
+		{
+			"path": "../../../../младшаяВскр/Анна"
+		},
+		{
+			"path": "../../../../СредняяВоскр/СоколовГеоргий"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Georgiyc++lessons"
+	}
+}

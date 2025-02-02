@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+    @keyframes body{
+        0%{
+            background-color: brown;
+            
+        }
+        33%{
+            background-color: blue;
+            
+        }
+        66%{
+            background-color: green;
+           
+        }
+        100%{
+            background-color: yellow;
+           
+        }
+}
+
+.btn{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(189, 3, 3);
+    border-radius: 50%;
+    padding: 50px;
+}
+.border{
+    height: 450px;
+    width: 450px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes border{
+    0%{
+        background-color: brown;
+        transform: rotate(15deg);
+    }
+    33%{
+        background-color: blue;
+        transform: rotate(30deg) ;
+    }
+    66%{
+        background-color: green;
+        transform: rotate(15deg);
+    }
+    100%{
+        background-color: yellow;
+        transform:rotate(30deg);
+    }
+        
+    
+    
+}

@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../Четверг Старшие/Полякова Азалия"
+		},
+		{
+			"path": "../../СубботаМладшая/СтецПоля"
+		},
+		{
+			"path": "../../СредняяСубб/GubskiyDima"
+		},
+		{
+			"path": "../../ВоскресеньеМладшая/Бородай Максим"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"CodeGPT.apiKey": "CodeGPT Plus Beta",
+		"liveServer.settings.multiRootWorkspaceName": "ПлатовМатвей"
+	}
+}

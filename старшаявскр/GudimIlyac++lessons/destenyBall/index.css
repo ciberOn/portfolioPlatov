@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 2, 38);
+    height: 100vh;
+    animation-name: body;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.border{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    border-radius: 50%;
+    animation-name: border;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes border {
+    0%{
+        background-color: black;
+        transform: scale(1.1);
+        transform: rotate(15deg);
+
+    }
+    33%{background-color: red;
+        transform: scale(1.05);
+        transform: rotate(30deg);
+        
+
+    }
+    66%{
+        background-color: blue;
+        transform: scale(1.1);
+        transform: rotate(-15deg);
+
+    }
+    100%{
+        background-color: blueviolet;
+        transform: scale(1.05);
+        transform: rotate(-30deg);
+
+    }
+}
+@keyframes body {
+    0%{
+        background-color: black;
+        transform: scale(1.1);
+        transform: rotate(15deg);
+
+    }
+    33%{background-color: red;
+        transform: scale(1.05);
+        transform: rotate(30deg);
+        
+
+    }
+    66%{
+        background-color: blue;
+        transform: scale(1.1);
+        transform: rotate(-15deg);
+
+    }
+    100%{
+        background-color: blueviolet;
+        transform: scale(1.05);
+        transform: rotate(-30deg);
+
+    }
+    
+}
+    
+
+
+.btn{
+    color: aliceblue;
+    background-color: rgb(51, 14, 200);
+    padding: 50px;
+    border-radius: 50%;
+}

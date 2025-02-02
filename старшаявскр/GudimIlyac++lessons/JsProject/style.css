@@ -1,0 +1,19 @@
+
+body {
+    max-width: 1300px;
+    height: 100vh;
+}
+
+.btn-play {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: blue;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 64px;
+    color: white;
+
+
+}
